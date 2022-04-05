@@ -35,18 +35,48 @@ public class Main {
         String s2 = "apple";
         System.out.println("The input strings are :" + s1 + " and " + s2);
         System.out.println("The alpha string is: ");
-        //hello
+        //hello 51 39 43 54
         // TODO: call the method alphaString that takes s1 and s2 as parameters and print the string the method returns
+
+
+
+        alphaString(s1,s2);
     }
+
+
+
+
+
+
+    public static void alphaString(String banana, String apple) {
+
+        char first = 'a';
+        String s1=Character.toString('a');
+        char second = (char) (first + 1);
+
+        if (first == 'a'); {
+            System.out.println(apple);
+        }  else  (second == 'b');
+
+    }
+
+
 
     // TODO: write in the comments below how you would find the alpha string without using code in steps
     /** finding the alpha string
-     * step 1: ...
-     * step 2: ...
+     *
+     * step 1: compare s1 and s2 and their letters of the alphabet
+     * step 2: since s2 has the first letter before s1 then s2 returns
      * ...
      * */
 
     // TODO: create the method alphaString that takes 2 strings as parameters and returns the alpha string
+
+
     // TODO: based on the steps defined in the comments, implement the function alphaString
+
+
+
+
 
 }
